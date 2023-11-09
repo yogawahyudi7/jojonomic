@@ -3,6 +3,12 @@ module github.com/yogawahyudi7/jojonomic
 go 1.21.1
 
 require (
+	github.com/joho/godotenv v1.5.1
+	github.com/labstack/gommon v0.4.0
+	gorm.io/plugin/dbresolver v1.4.7
+)
+
+require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/gofiber/fiber/v2 v2.50.0 // indirect
 	github.com/google/uuid v1.3.1 // indirect
@@ -19,6 +25,7 @@ require (
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.50.0 // indirect
+	github.com/valyala/fasttemplate v1.2.1 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/sync v0.5.0 // indirect
